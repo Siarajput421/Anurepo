@@ -5,8 +5,8 @@ files:
     destination: /home/ubuntu/
 hooks:
   BeforeInstall: 
-    - location: new1.sh
+    - location: depend.sh
       timeout: 300
   AfterInstall:
-    - location: new2.sh
+    - location: config.sh
       timeout: 300
