@@ -16,7 +16,7 @@ mv /home/ubuntu/configruation /etc/nginx/sites-available/
 
 sudo ln -s /etc/nginx/sites-available/configruation /etc/nginx/sites-enabled/
 
-sudo rm /etc/nginx/sites-enabled/Assigment
+sudo rm /etc/nginx/sites-enabled/default
 
 
 sudo systemctl restart nginx
